@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.color-bg-primary {
+  background-color: #18bab4;
+}
+
+.color-primary {
+  color: #18bab4;
+}
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-25 {
+  font-size: 25px;
+}
+
+.font-40 {
+  font-size: 40px;
+}
+
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+[type="text"].form-control:focus,
+[type="password"].form-control:focus,
+[type="email"].form-control:focus,
+[type="tel"].form-control:focus,
+select.form-control:focus,
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 #18bab4;
+}
